@@ -25,11 +25,11 @@ Data Range: 10y+
 Cleaning: Handle missing values, outliers, and anomalies.<br>
 Normalization: Stock price data should be normalized for better performance of neural networks.<br>
 Feature Engineering to capture trends:<br>
-> - Simple Moving Averages<br>
-> - Exponential Moving Averages<br>
-> - Relative Strength Index (https://en.wikipedia.org/wiki/Relative_strength_index)<br>
-> - Moving Average Convergence DIvergence (https://en.wikipedia.org/wiki/MACD) <br>
-> - On-Balance Volume (https://en.wikipedia.org/wiki/On-balance_volume) <br>
+    - Simple Moving Averages<br>
+    - Exponential Moving Averages<br>
+    - Relative Strength Index (https://en.wikipedia.org/wiki/Relative_strength_index)<br>
+    - Moving Average Convergence DIvergence (https://en.wikipedia.org/wiki/MACD) <br>
+    - On-Balance Volume (https://en.wikipedia.org/wiki/On-balance_volume) <br>
 
 4. Choose an AI Model
 Time Series Models: LSTM (Long Short Term Memory) networks are popular for time series prediction. Other options include ARIMA, GARCH, or more complex neural networks like Transformers.<br>
