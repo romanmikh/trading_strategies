@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
-print(plt.style.available)
+# print(plt.style.available)
 
 
 # Gathering data #
@@ -33,7 +33,7 @@ data['EMA_5'] = data['Close'].ewm(span=5, adjust=False).mean()
 delta = data['Close'].diff()
 gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
 loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
-rs = gain / loss  # relative strength 
+rs = gain / loss  
 data['RSI'] = 100 - (100 / (1 + rs))
 
 # Moving Average Convergence Divergence (MACD)
@@ -45,21 +45,18 @@ data['Signal_Line'] = data['MACD'].ewm(span=9, adjust=False).mean()
 # On-Balance Volume (OBV)
 OBV = [0]
 for i in range(1, len(data.Close)):
-    if data.Close[i] > data.Close[i-1]:
-        OBV.append(OBV[-1] + data.Volume[i])
-    elif data.Close[i] < data.Close[i-1]:
-        OBV.append(OBV[-1] - data.Volume[i])
+    if data.Close.iloc[i] > data.Close.iloc[i-1]:
+        OBV.append(OBV[-1] + data.Volume.iloc[i])
+    elif data.Close.iloc[i] < data.Close.iloc[i-1]:
+        OBV.append(OBV[-1] - data.Volume.iloc[i])
     else:
         OBV.append(OBV[-1])
 data['OBV'] = OBV
 
-for i in range(len(data.columns)):
-    print(data.columns[i])
-print(data)
-
 
 
 # Data Visualisation
+######## Using Latest Year of Data ########
 
 data_subset = data.tail(300).copy()
 
@@ -114,7 +111,7 @@ plt.tight_layout()
 
 
 
-######## Full Dataset ########
+######## Using Full Dataset ########
 
 
 # Plot settings

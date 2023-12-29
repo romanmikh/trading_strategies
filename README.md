@@ -3,15 +3,18 @@
 <p align="center"><i>This vicious syndicate soon had control of the government</i></p>
 <p align="center"><i>and even the police force. The city has become a center of</i></p>
 <p align="center"><i>violence and crime where no one is safe.</i></p>
-
 <p align="center"><i>Amid this turmoil, a group of determined young traders</i></p>
 <p align="center"><i>has sworn to clean up the city. Among them are</i></p>
 <p align="center"><i><b>Samius Taylorium, Professor X Meyer</b> and <b>Romano Mikhalabongo</b>.</i></p>
 <p align="center"><i>They are willing to risk anything... Even their lives... On the...</i></p>
 
-<p align="center"><i><b>Feats of Wage</b></i></p>
+<p align="center"><i><b>Streets of Leverage</b></i></p>
+
+
 
 <br><br><br><br>
+
+
 
 <b>Plan of action</b>
 
@@ -49,3 +52,32 @@ Real-Time Data: For real-world application, you need to integrate real-time data
 Automation: Automate the process of data fetching, prediction, and trading.
 
 Libraries: Pandas for data manipulation, NumPy for numerical operations, Matplotlib/Seaborn for visualization, scikit-learn for basic ML models, TensorFlow/Keras or PyTorch for neural networks.
+
+
+
+<br><br><br><br>
+
+
+
+** Notes: 
+RSI:
+> Ratio of up momentum VS down momentum
+> \>70 --> overbought + will fall
+> <30 --> oversold + will rise
+
+
+MACD:
+> MACD = 0 --> long term averages converge
+> 1) MACD = 0 upwards & above signal --> bullish, short term momentum rising faster than long term
+> 2) MACD = 0 upwards & below signal --> weak bullish, convergence of momenta
+> 3) MACD = 0 downwards & above signal --> weak bearish, convergence of momenta
+> 4) MACD = 0 downwards & below signal --> bearish, short term momentum falling faster than long term
+
+
+OBV:
+> Assumes volume preceeds price movement, 
+> price up --> cumulatively add volume
+> price down --> cumulatively subtract volume
+> 1) price rising & OBV *gradient* decreasing --> bearish reversal likely
+> 2) price falling & OBV *gradient* increasing --> bullish reversal likely
+
