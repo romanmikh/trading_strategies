@@ -22,8 +22,8 @@ Sources: Yahoo Finance, Alpha Vantage, or Quandl to get historical stock price d
 Data Range: 10y+
 
 3. Preprocess the Data
-Cleaning: Handle missing values, outliers, and anomalies.
-Normalization: Stock price data should be normalized for better performance of neural networks.
+Cleaning: Handle missing values, outliers, and anomalies.<br>
+Normalization: Stock price data should be normalized for better performance of neural networks.<br>
 Feature Engineering: capturing trends using<br>
 - Simple Moving Averages<br>
 - Exponential Moving Averages<br>
@@ -32,20 +32,20 @@ Feature Engineering: capturing trends using<br>
 - On-Balance Volume (https://en.wikipedia.org/wiki/On-balance_volume) <br>
 
 4. Choose an AI Model
-Time Series Models: LSTM (Long Short Term Memory) networks are popular for time series prediction. Other options include ARIMA, GARCH, or more complex neural networks like Transformers.
+Time Series Models: LSTM (Long Short Term Memory) networks are popular for time series prediction. Other options include ARIMA, GARCH, or more complex neural networks like Transformers.<br>
 Machine Learning Models: Regression models, Random Forest, Gradient Boosting, etc.
 
 5. Train the Model
-Split the Data: Divide your data into training, validation, and test sets.
-Training: Use the training set to train your model.
-Validation: Use the validation set to fine-tune hyperparameters and avoid overfitting.
+Split the Data: Divide your data into training, validation, and test sets.<br>
+Training: Use the training set to train your model.<br>
+Validation: Use the validation set to fine-tune hyperparameters and avoid overfitting.<br>
 
 6. Evaluate the Model
-Metrics: Use metrics like Mean Squared Error (MSE), Mean Absolute Error (MAE), or others suitable for regression problems.
+Metrics: Use metrics like Mean Squared Error (MSE), Mean Absolute Error (MAE), or others suitable for regression problems.<br>
 Backtesting: Simulate how the model would perform on historical data.
 
 7. Implementation
-Real-Time Data: For real-world application, you need to integrate real-time data feeds.
+Real-Time Data: For real-world application, you need to integrate real-time data feeds.<br>
 Automation: Automate the process of data fetching, prediction, and trading.
 
 Libraries: Pandas for data manipulation, NumPy for numerical operations, Matplotlib/Seaborn for visualization, scikit-learn for basic ML models, TensorFlow/Keras or PyTorch for neural networks.
