@@ -1,15 +1,16 @@
-<i>This city was once a happy. Peaceful place... 
-Until one day. A powerful secret criminal organization took over. 
-This vicious syndicate soon had control of the government 
-and even the police force. The city has become a center of 
-violence and crime where no one is safe.
+<p align="center"><i>This city was once a happy, peaceful place...</i></p>
+<p align="center"><i>Until one day, a powerful secret criminal organization took over.</i></p>
+<p align="center"><i>This vicious syndicate soon had control of the government</i></p>
+<p align="center"><i>and even the police force. The city has become a center of</i></p>
+<p align="center"><i>violence and crime where no one is safe.</i></p>
 
-Amid this turmoil. A group of determined young traders 
-has sworn to clean up the city. Amoung them are 
-<b>Samius Taylorium, Professor X Meyer</b> and <b>Romano Mikhalabongo</b>. T
-hey are willing to risk anything... Even their lives... On the...
+<p align="center"><i>Amid this turmoil, a group of determined young traders</i></p>
+<p align="center"><i>has sworn to clean up the city. Among them are</i></p>
+<p align="center"><i><b>Samius Taylorium, Professor X Meyer</b> and <b>Romano Mikhalabongo</b>.</i></p>
+<p align="center"><i>They are willing to risk anything... Even their lives... On the...</i></p>
 
-<b>Feats of Wage</b></i>
+<p align="center"><i><b>Feats of Wage</b></i></p>
+
 
 
 
