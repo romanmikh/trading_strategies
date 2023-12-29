@@ -164,4 +164,4 @@ plt.legend()
 
 # Show the plots
 plt.tight_layout()
-# plt.show()
+plt.show()

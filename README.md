@@ -18,13 +18,18 @@
 1. Team meeting
 
 2. Gather Data
-Sources: Use APIs like Yahoo Finance, Alpha Vantage, or Quandl to get historical stock price data.
+Sources: Yahoo Finance, Alpha Vantage, or Quandl to get historical stock price data.
 Data Range: 10y+
 
 3. Preprocess the Data
 Cleaning: Handle missing values, outliers, and anomalies.
 Normalization: Stock price data should be normalized for better performance of neural networks.
-Feature Engineering: Create features like moving averages, Relative Strength Index (RSI), etc., which might help in capturing trends.
+Feature Engineering: capturing trends using<br>
+- Simple Moving Averages<br>
+- Exponential Moving Averages<br>
+- Relative Strength Index (https://en.wikipedia.org/wiki/Relative_strength_index)<br>
+- Moving Average Convergence DIvergence (https://en.wikipedia.org/wiki/MACD) <br>
+- On-Balance Volume (https://en.wikipedia.org/wiki/On-balance_volume) <br>
 
 4. Choose an AI Model
 Time Series Models: LSTM (Long Short Term Memory) networks are popular for time series prediction. Other options include ARIMA, GARCH, or more complex neural networks like Transformers.
