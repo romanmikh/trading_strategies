@@ -61,23 +61,23 @@ Libraries: Pandas for data manipulation, NumPy for numerical operations, Matplot
 
 ** Notes: 
 RSI:
-> Ratio of up momentum VS down momentum
-> \>70 --> overbought + will fall
-> <30 --> oversold + will rise
+> Ratio of up momentum VS down momentum<br>
+> \>70 --> overbought + will fall<br>
+> <30 --> oversold + will rise<br>
 
 
 MACD:
-> MACD = 0 --> long term averages converge
-> 1) MACD = 0 upwards & above signal --> bullish, short term momentum rising faster than long term
-> 2) MACD = 0 upwards & below signal --> weak bullish, convergence of momenta
-> 3) MACD = 0 downwards & above signal --> weak bearish, convergence of momenta
-> 4) MACD = 0 downwards & below signal --> bearish, short term momentum falling faster than long term
+> MACD = 0 --> long term averages converge<br>
+> 1) MACD = 0 upwards & above signal --> bullish, short term momentum rising faster than long term<br>
+> 2) MACD = 0 upwards & below signal --> weak bullish, convergence of momenta<br>
+> 3) MACD = 0 downwards & above signal --> weak bearish, convergence of momenta<br>
+> 4) MACD = 0 downwards & below signal --> bearish, short term momentum falling faster than long term<br>
 
 
 OBV:
-> Assumes volume preceeds price movement, 
-> price up --> cumulatively add volume
-> price down --> cumulatively subtract volume
-> 1) price rising & OBV *gradient* decreasing --> bearish reversal likely
-> 2) price falling & OBV *gradient* increasing --> bullish reversal likely
+> Assumes volume preceeds price movement<br>
+> price up --> cumulatively add volume<br>
+> price down --> cumulatively subtract volume<br>
+> 1) price rising & OBV *gradient* decreasing --> bearish reversal likely<br>
+> 2) price falling & OBV *gradient* increasing --> bullish reversal likely<br>
 
