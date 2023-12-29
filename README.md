@@ -15,7 +15,7 @@ who will combine their powers to overthrow the vanguards and the citadels of thi
 
 
 
-
+1. Team meeting
 
 2. Gather Data
 Sources: Use APIs like Yahoo Finance, Alpha Vantage, or Quandl to get historical stock price data.
