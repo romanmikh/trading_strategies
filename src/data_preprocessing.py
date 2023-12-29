@@ -53,6 +53,16 @@ for i in range(1, len(data.Close)):
         OBV.append(OBV[-1])
 data['OBV'] = OBV
 
+# Save the data to a CSV file
+data.to_csv('src/AAPL_10y_preprocessed.csv')
+
+
+
+
+
+
+
+
 
 
 # Data Visualisation

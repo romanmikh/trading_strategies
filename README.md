@@ -60,6 +60,7 @@ Libraries: Pandas for data manipulation, NumPy for numerical operations, Matplot
 
 
 <b>Notes:</b> <br><br>
+
 RSI:
 > Ratio of up momentum VS down momentum<br>
 > \>70 --> overbought + will fall<br>
