@@ -7,7 +7,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 # Gathering data #
 # Load data using Pandas
-data = pd.read_csv('src/AAPL_10_years_close.csv')
+data = pd.read_csv('src/AAPL_10y.csv')
 
 # Preprocess data
 data['Date'] = pd.to_datetime(data['Date'])
@@ -51,4 +51,6 @@ for i in range(1, len(data.Close)):
         OBV.append(OBV[-1])
 data['OBV'] = OBV
 
+for i in range(len(data.columns)):
+    print(data.columns[i])
 print(data)
