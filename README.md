@@ -1,14 +1,10 @@
-Trading strategies think tank consisting of
+<i>This city was once a happy. Peaceful place... Until one day. A powerful secret criminal organization took over. This vicious syndicate soon had control of the government and even the police force. The city has become a center of violence and crime where no one is safe.
+
+  p Amid this turmoil. A group of determined young police officers has sworn to clean up the city. Amoung them are <b>Samius Taylorium, Professor X Meyer</b> and <b>Romano Mikhalabongo</b>. They are willing to risk anything... Even their lives... On the...
+
+<b>Streets of Rage</b></i>
 
 
-Samius Taylorium
-
-Professor X Meyer
-
-Romano Mikhalabongo
-
-
-who will combine their powers to overthrow the vanguards and the citadels of this planet
 
 
 
