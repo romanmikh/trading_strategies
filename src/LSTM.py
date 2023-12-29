@@ -1,4 +1,7 @@
+# Update NVIDIA graphics drivers https://www.nvidia.com/download/index.aspx
+# Install CUDA ToolKit https://developer.nvidia.com/cuda-downloads
 # pip install tensorflow
+
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
