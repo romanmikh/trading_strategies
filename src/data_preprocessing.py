@@ -50,3 +50,5 @@ for i in range(1, len(data.Close)):
     else:
         OBV.append(OBV[-1])
 data['OBV'] = OBV
+
+print(data)
