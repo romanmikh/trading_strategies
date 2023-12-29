@@ -11,19 +11,15 @@
 
 <p align="center"><i><b>Feats of Wage</b></i></p>
 
+<br><br><br><br>
 
-
-
-
-
-
-
+<b>Plan of action</b>
 
 1. Team meeting
 
 2. Gather Data
 Sources: Use APIs like Yahoo Finance, Alpha Vantage, or Quandl to get historical stock price data.
-Data Range: Decide on the time range for your data. Longer historical data might help the model understand long-term trends.
+Data Range: 10y+
 
 3. Preprocess the Data
 Cleaning: Handle missing values, outliers, and anomalies.
@@ -45,6 +41,6 @@ Backtesting: Simulate how the model would perform on historical data.
 
 7. Implementation
 Real-Time Data: For real-world application, you need to integrate real-time data feeds.
-Automation: Automate the process of data fetching, prediction, and potentially trading (if that's an end goal).
+Automation: Automate the process of data fetching, prediction, and trading.
 
 Libraries: Pandas for data manipulation, NumPy for numerical operations, Matplotlib/Seaborn for visualization, scikit-learn for basic ML models, TensorFlow/Keras or PyTorch for neural networks.
