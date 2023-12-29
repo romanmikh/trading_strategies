@@ -68,16 +68,16 @@ RSI:
 
 MACD:
 > MACD = 0 --> long term averages converge<br>
-> 1) MACD = 0 upwards & above signal --> bullish, short term momentum rising faster than long term<br>
-> 2) MACD = 0 upwards & below signal --> weak bullish, convergence of momenta<br>
-> 3) MACD = 0 downwards & above signal --> weak bearish, convergence of momenta<br>
-> 4) MACD = 0 downwards & below signal --> bearish, short term momentum falling faster than long term<br>
+> 1: MACD = 0 upwards & above signal --> bullish, short term momentum rising faster than long term<br>
+> 2: MACD = 0 upwards & below signal --> weak bullish, convergence of momenta<br>
+> 3: MACD = 0 downwards & above signal --> weak bearish, convergence of momenta<br>
+> 4: MACD = 0 downwards & below signal --> bearish, short term momentum falling faster than long term<br>
 
 
 OBV:
 > Assumes volume preceeds price movement<br>
 > price up --> cumulatively add volume<br>
 > price down --> cumulatively subtract volume<br>
-> 1) price rising & OBV *gradient* decreasing --> bearish reversal likely<br>
-> 2) price falling & OBV *gradient* increasing --> bullish reversal likely<br>
+> 1: price rising & OBV *gradient* decreasing --> bearish reversal likely<br>
+> 2: price falling & OBV *gradient* increasing --> bullish reversal likely<br>
 
