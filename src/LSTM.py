@@ -20,7 +20,7 @@ scaled_data = scaler.fit_transform(data['Close'].values.reshape(-1,1))
 
 # Define how many days of data the model should consider & split data
 sequence_length = 60
-train_size = int(len(scaled_data) * 0.8)  # Example: 80% of data for training
+train_size = int(len(scaled_data) * 0.8)  # 80% of data for training
 
 train_data = scaled_data[:train_size]
 test_data = scaled_data[train_size - sequence_length:]  # Overlap last part of training data
